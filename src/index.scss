@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Anor"; 
+  src: url("./fonts/ARCHIAN/Archi10.TTF") format("truetype");
+}
+@font-face {
+  font-family: 'Abw';
+  src: url("./fonts/ARCHIAN/Archi18.TTF") format("truetype");
+}
+
+$grey: #676767;
+$light-grey: #ddd;
+$text-shadow: 2px 2px 5px rgba(0, 0, 0, .40);
+:root {
+  --grey: #{$grey};
+  --light-grey: #{$light-grey};
+  --text-shadow: #{$text-shadow};
+  font-size: calc( 6px + 1vw );
+}
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+p {
+  margin: 0;
+}
+
+.anor {
+  font-family: 'Anor';
+}
+
+.abw {
+  font-family: 'Abw';
+}
+
+.title-shadow {
+  text-shadow: 0 0 2px #000000;
+}
+
+.subtitle-shadow {
+  text-shadow: 0 0 1px #000000;
+}
+
+.golden {
+  color: #EDCF61;
+}
+.grey {
+  color: var(--grey);
+}
+.light-grey {
+  color: var(--light-grey);
+}

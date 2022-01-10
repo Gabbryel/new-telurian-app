@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+.footer {
+    width: 100%;
+    position: relative;
+    background-color: #67678030;
+    padding: 1em 0;
+    color: var(--grey);
+    font-size: 1rem;
+    align-self: flex-end;
+    color: var(--light-grey);
+    p {
+        padding: 0.2em 0;
+    }
+    .footer-logo__section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a img {
+            width: 3em;
+            margin: 0 1em;
+        }
+    }
+    .footer-contact-images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: .5em;
+        a img {
+            width: 1.5em;
+            margin: 0 .7em;
+        }
+    }
+    .footer-credits {
+        p {
+            display: inline-flex;
+        }
+        #wd {
+            font-family: 'Frijole', cursive;
+            font-size: .9rem;
+            width: 2em;
+            img {
+                width: 100%;
+                margin: 0 5px;
+            }
+        }
+    }
+}
+
+@media (min-width: 900px) {
+    .footer {
+        font-size: .7rem;
+        .footer-credits {
+            #wd {
+                font-size: .5rem;
+            }
+        }
+    }
+}
